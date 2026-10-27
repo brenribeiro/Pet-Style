@@ -1,0 +1,19 @@
+{
+  "name": "petstyle-performance-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server . -p 4173 -c-1",
+    "before": "npx http-server ./before -p 4174 -c-1",
+    "lighthouse:before": "npx lighthouse http://localhost:4174 --output=json --output-path=./reports/before-lighthouse.json --chrome-flags='--headless --no-sandbox'",
+    "lighthouse:after": "npx lighthouse http://localhost:4173 --output=json --output-path=./reports/after-lighthouse.json --chrome-flags='--headless --no-sandbox'",
+    "report": "python scripts/render_report_cards.py"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "http-server": "^14.1.1",
+    "lighthouse": "^13.5.0",
+    "postcss": "^8.5.12",
+    "tailwindcss": "^3.4.19"
+  }
+}

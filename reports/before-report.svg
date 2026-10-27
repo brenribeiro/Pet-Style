@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#f7efe5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <text x="80" y="90" font-size="40" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#28322f">Pet&amp;Style — Relatório antes</text>
+  <text x="80" y="135" font-size="20" font-family="Segoe UI, Arial, sans-serif" fill="#5b6760">Diagnóstico inicial da landing page</text>
+
+  <rect x="80" y="180" width="200" height="130" rx="18" fill="#fff" stroke="#e9e2d6"/>
+  <text x="110" y="220" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#69746d">Performance</text>
+  <text x="110" y="270" font-size="52" font-family="Segoe UI, Arial, sans-serif" font-weight="800" fill="#28322f">54</text>
+
+  <rect x="310" y="180" width="200" height="130" rx="18" fill="#fff" stroke="#e9e2d6"/>
+  <text x="340" y="220" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#69746d">FCP</text>
+  <text x="340" y="270" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#e77d63">2.8s</text>
+
+  <rect x="540" y="180" width="200" height="130" rx="18" fill="#fff" stroke="#e9e2d6"/>
+  <text x="570" y="220" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#69746d">LCP</text>
+  <text x="570" y="270" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#c77748">4.1s</text>
+
+  <rect x="770" y="180" width="200" height="130" rx="18" fill="#fff" stroke="#e9e2d6"/>
+  <text x="800" y="220" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#69746d">TBT</text>
+  <text x="800" y="270" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#8d6b57">1.57s</text>
+
+  <rect x="1000" y="180" width="120" height="130" rx="18" fill="#fff" stroke="#e9e2d6"/>
+  <text x="1027" y="220" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#69746d">CLS</text>
+  <text x="1035" y="270" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#547760">0</text>
+
+  <rect x="80" y="360" width="1040" height="210" rx="22" fill="#fff" stroke="#e9e2d6"/>
+  <text x="110" y="405" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#28322f">Principais gargalos</text>
+  <text x="110" y="455" font-size="20" font-family="Segoe UI, Arial, sans-serif" fill="#5d6963">• Fontes externas no caminho crítico de renderização</text>
+  <text x="110" y="495" font-size="20" font-family="Segoe UI, Arial, sans-serif" fill="#5d6963">• CSS e layout sem priorização clara de carregamento</text>
+  <text x="110" y="535" font-size="20" font-family="Segoe UI, Arial, sans-serif" fill="#5d6963">• Ausência de hints de lazy loading e defer para JS não crítico</text>
+
+  <text x="80" y="640" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#728078">Fonte: Lighthouse (JSON) — relatórios em /reports/before-lighthouse.json</text>
+</svg>
